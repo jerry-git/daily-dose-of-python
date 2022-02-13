@@ -1,0 +1,32 @@
+site_name: Daily dose of Python
+repo_url: https://github.com/jerry-git/daily-dose-of-python
+
+theme:
+  name: material
+  features:
+    - navigation.expand
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.details:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite:
+  - pymdownx.snippets:
+  - pymdownx.superfences:
+
+plugins:
+  - search:
+  - tags:
+      tags_template: docs/theme/tags.md.template
+      tags_folder: .tmp
