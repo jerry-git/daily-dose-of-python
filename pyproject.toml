@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "daily-dose-of-python"
+version = "0.1.0"
+description = "Source code for https://jerry-git.github.io/daily-dose-of-python/"
+authors = ["Jerry Pussinen <jerry.pussinen@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+mkdocs-material = "*"
+python = "^3.9"
+pymdown-extensions = "*"
+tags-macros-plugin = {git = "https://github.com/jldiaz/mkdocs-plugin-tags.git"}
+
+[tool.poetry.dev-dependencies]
+black = "*"
+flake8 = "*"
+isort = "*"
+mypy = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
