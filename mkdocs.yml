@@ -1,4 +1,5 @@
 site_name: Daily dose of Python
+edit_uri: edit/main/docs/
 repo_url: https://github.com/jerry-git/daily-dose-of-python
 
 theme:
