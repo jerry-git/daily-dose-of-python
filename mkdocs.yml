@@ -31,3 +31,15 @@ plugins:
   - tags:
       tags_template: docs/theme/tags.md.template
       tags_folder: .tmp
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/JerryPussinen
+      name: Jerry on Twitter
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jerry-pussinen-20a3a7140/
+      name: Jerry on LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/jerry-git
+      name: Jerry on GitHub
