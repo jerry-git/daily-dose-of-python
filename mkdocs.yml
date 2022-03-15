@@ -19,6 +19,8 @@ theme:
         name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
+    logo: fontawesome/brands/python
+  favicon: img/favicon.png
 
 markdown_extensions:
   - attr_list:
