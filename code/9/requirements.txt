@@ -1,0 +1,4 @@
+dirty-equals==0.1
+fastapi==0.74.1
+requests==2.27.1
+pytest==7.0.1
