@@ -4,6 +4,7 @@ repo_url: https://github.com/jerry-git/daily-dose-of-python
 
 theme:
   name: material
+  custom_dir: docs/overrides
   features:
     - navigation.expand
   palette:
@@ -21,6 +22,7 @@ theme:
     repo: fontawesome/brands/github
     logo: fontawesome/brands/python
   favicon: img/favicon.png
+
 
 markdown_extensions:
   - attr_list:
@@ -42,6 +44,8 @@ plugins:
       tags_folder: .tmp
 
 extra:
+  analytics:
+    provider: custom
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/JerryPussinen
