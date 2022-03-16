@@ -1,3 +1,7 @@
+---
+og_image: img/daily-dose-of-python.png
+---
+
 # Daily dose of Python
 
 Advanced Python tips and tricks in easy to digest format.

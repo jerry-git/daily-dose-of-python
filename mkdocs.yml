@@ -1,6 +1,7 @@
 site_name: Daily dose of Python
 edit_uri: edit/main/docs/
 repo_url: https://github.com/jerry-git/daily-dose-of-python
+site_url: https://jerry-git.github.io/daily-dose-of-python/
 
 theme:
   name: material
@@ -27,6 +28,7 @@ theme:
 markdown_extensions:
   - attr_list:
   - md_in_html:
+  - meta:
   - pymdownx.snippets:
       check_paths: true
   - pymdownx.details:
