@@ -1,0 +1,4 @@
+aiosqlite==0.17.0
+pydantic==1.9.0
+SQLAlchemy==1.4.31
+sqlmodel==0.0.6
