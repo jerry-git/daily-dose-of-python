@@ -4,4 +4,10 @@
   {% if page and page.meta and page.meta.og_image %}
     <meta property="og:image" content="{{ config.site_url ~ page.meta.og_image }}" />
   {% endif %}
+  {% if page and page.meta and page.meta.twitter_title and page.meta.twitter_description and page.meta.twitter_image %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.meta.twitter_title }}">
+    <meta name="twitter:description" content="{{ page.meta.twitter_description }}">
+    <meta name="twitter:image" content="{{ config.site_url ~ page.meta.twitter_image }}">
+  {% endif %}
 {% endblock %}

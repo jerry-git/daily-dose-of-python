@@ -1,5 +1,8 @@
 ---
 og_image: img/daily-dose-of-python.png
+twitter_title: Daily dose of Python
+twitter_description: Slightly more advanced Python tips and tricks in easy to digest format.
+twitter_image: img/daily-dose-of-python.png
 ---
 
 # Daily dose of Python
