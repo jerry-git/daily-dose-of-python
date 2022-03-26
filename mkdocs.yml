@@ -24,6 +24,20 @@ theme:
     logo: fontawesome/brands/python
   favicon: img/favicon.png
 
+nav:
+  - Home: index.md
+  - Categories: tags.md
+  - Doses:
+      - doses/1.md
+      - doses/2.md
+      - doses/3.md
+      - doses/4.md
+      - doses/5.md
+      - doses/6.md
+      - doses/7.md
+      - doses/8.md
+      - doses/9.md
+      - doses/10.md
 
 markdown_extensions:
   - attr_list:
