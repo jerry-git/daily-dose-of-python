@@ -72,3 +72,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/jerry-git
       name: Jerry on GitHub
+  default_meta_tags:
+    og_image: img/daily-dose-of-python.png
+    twitter:
+      title: Daily dose of Python
+      description: Slightly more advanced Python tips and tricks in easy to digest format.
+      image: img/daily-dose-of-python.png
