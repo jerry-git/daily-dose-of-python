@@ -39,6 +39,7 @@ nav:
       - doses/9.md
       - doses/10.md
       - doses/11.md
+      - doses/12.md
 
 markdown_extensions:
   - attr_list:
